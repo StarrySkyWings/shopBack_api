@@ -5,16 +5,16 @@
 		"expiresIn":86400
 	},
 	"upload_config":{
-		"baseURL":"http://127.0.0.1:8888",
+		"baseURL":"http://0.0.0.0:8888",
 		"upload_ueditor":"uploads/ueditor",
-		"simple_upload_redirect":"http://127.0.0.1/reload"
+		"simple_upload_redirect":"http://0.0.0.0/reload"
 	},
 	"db_config" : {
 		"protocol" : "mysql",
-		"host" : "127.0.0.1",
-		"database" : "mydb",
-		"user" : "root",
-		"password" : "abc123",
-		"port" : 3306
+		"host" : "mysql5.sqlpub.com",
+		"database" : "mydb_test_shop",
+		"user" : "root_test_shop",
+		"password" : "ONt8JJ0p8sDqkPVD",
+		"port" : 3310
 	}
 }
